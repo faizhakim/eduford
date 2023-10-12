@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+    Univercity webside desing  - easy tutrioul
+</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/f191f5af73.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<section class="sub-header">
+<nav>
+    <a href="index.html">
+        <img style="height: 100px; background: transparent;"  src="./eduford_img/newlogo.png">
+    </a>
+<div class="nav-links" id="navlinks">
+    <i class="fa fa-times" aria-hidden="false" onclick="hidemenu()"></i>
+    <ul>
+        <li> <a href="./index.html">HOME</a></li>
+        <li> <a href="./about.html" target="">ABOUT</a></li>
+        <li> <a href="./course.html" target=" ">COURSE</a></li>
+        <li> <a href="" target="_self">BLOG</a></li>   
+        <li> <a href="" target="_self">CONTACT</a></li>
+    </ul>
+</div>
+<i class="fa fa-bars" onclick="showmenu()" ></i>
+</nav>
+ 
+<h1>OUR certify online courses</h1>
+</section>
+
+<!-- blog page content -->
+<section class="blog-content">
+    <div class="row">
+    <div class="blog-left">
+<img src="./eduford_img/certificate.jpg">
+<h2>OUR certify online courses</h2>
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus veniam qui quae sint molestias quibusdam vitae quo. Doloribus nulla, cum totam alias commodi illo, laboriosam doloremque nihil excepturi laborum similique?
+</p> 
+<br>
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus architecto dignissimos saepe suscipit laboriosam aperiam et sit ipsum vero, dolore adipisci dolorem eius placeat dolores veritatis pariatur esse repellendus doloribus?
+</p>
+<br>
+<p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus velit vel fugit nostrum numquam esse, culpa repudiandae asperiores ex iusto, blanditiis laborum vitae, commodi alias aut architecto sed unde hic.
+</p>
+<br><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non delectus sunt quis vel blanditiis. Iure, praesentium consequatur error a laudantium maiores blanditiis cum veniam nam, repellendus consequuntur, corrupti cumque accusantium.</p>
+<div class="comment-box">
+      <h3>
+        Leave a Comment
+      </h3>
+      <form class="comment-form">
+        <input type="text" placeholder="Enter Name">
+        <input type="email" placeholder="Enter Email">
+        <textarea rows="5" placeholder="Your Comment"></textarea>
+        <button type="submit" class="hero-btn red-btn">POST Comment</button>
+      </form>
+</div>
+
+
+
+</div>
+<div class="blog-right">
+<h3>
+    Post Categories
+</h3>
+<div>
+    <span> Business Analytics </span>
+    <span> 21 </span>
+</div>
+<div>
+    <span> html </span>
+    <span> 23 </span>
+</div>
+<div>
+    <span> CSS </span>
+    <span> 47 </span>
+</div>
+<div>
+    <span> Java Scrip </span>
+    <span> 94 </span>
+</div>
+<div>
+    <span> Autocat </span>
+    <span> 28 </span>
+</div>
+<div>
+    <span> Commers </span>
+    <span> 30  </span>
+</div>
+
+
+</div>
+
+</div>
+</section>
+ 
+
+
+
+
+<!-- footer -->
+<section class="footer">
+<h4>
+    About us 
+</h4>
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sunt obcaecati perspiciatis fugit error tempore necessitatibus<br> laborum fugiat sequi iste, reprehenderit, numquam delectus ipsam animi! Adipisci at doloribus accusantium obcaecati!
+</p>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+
+</div>
+
+</section>
+
+
+
+<!-- java scrip for menu toggl -->
+<script>
+    var navlinks = document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.right="0";
+    }
+    function hidemenu(){
+        navlinks.style.right="-200px";
+    }
+</script>
+</body>
+</html>
